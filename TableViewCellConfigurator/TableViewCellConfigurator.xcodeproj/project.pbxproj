@@ -17,6 +17,7 @@
 		D598EB5C1F35D71600866129 /* KSYCellSelectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598EB5B1F35D71600866129 /* KSYCellSelectable.swift */; };
 		D598EB5E1F35D97E00866129 /* KSYCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598EB5D1F35D97E00866129 /* KSYCellViewModel.swift */; };
 		D598EB621F35DDE400866129 /* KSYCellSelectedAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598EB611F35DDE400866129 /* KSYCellSelectedAction.swift */; };
+		D5AB0AD11F38415B007B8D03 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AB0AD01F38415B007B8D03 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D598EB5B1F35D71600866129 /* KSYCellSelectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSYCellSelectable.swift; sourceTree = "<group>"; };
 		D598EB5D1F35D97E00866129 /* KSYCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSYCellViewModel.swift; sourceTree = "<group>"; };
 		D598EB611F35DDE400866129 /* KSYCellSelectedAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSYCellSelectedAction.swift; sourceTree = "<group>"; };
+		D5AB0AD01F38415B007B8D03 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				D598EB521F34A0E100866129 /* CellConfigurator */,
 				D598EB401F34A0C500866129 /* AppDelegate.swift */,
 				D598EB421F34A0C500866129 /* ViewController.swift */,
+				D5AB0AD01F38415B007B8D03 /* TableViewCell.swift */,
 				D598EB441F34A0C500866129 /* Main.storyboard */,
 				D598EB471F34A0C500866129 /* Assets.xcassets */,
 				D598EB491F34A0C500866129 /* LaunchScreen.storyboard */,
@@ -159,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D598EB581F34A15A00866129 /* KSYCellConfigurable.swift in Sources */,
+				D5AB0AD11F38415B007B8D03 /* TableViewCell.swift in Sources */,
 				D598EB621F35DDE400866129 /* KSYCellSelectedAction.swift in Sources */,
 				D598EB431F34A0C500866129 /* ViewController.swift in Sources */,
 				D598EB5E1F35D97E00866129 /* KSYCellViewModel.swift in Sources */,
@@ -238,7 +242,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -289,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -303,6 +307,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J7XJK67HUB;
 				INFOPLIST_FILE = TableViewCellConfigurator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ksy.TableViewCellConfigurator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -317,6 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J7XJK67HUB;
 				INFOPLIST_FILE = TableViewCellConfigurator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ksy.TableViewCellConfigurator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
