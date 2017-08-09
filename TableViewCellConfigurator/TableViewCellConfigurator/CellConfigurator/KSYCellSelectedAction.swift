@@ -12,7 +12,7 @@ public struct KSYCellSelectedAction: KSYCellSelectable {
     
     fileprivate var selectedAction: ((IndexPath) -> Void)
     
-    init(selectedAction: @escaping ((IndexPath) -> Void)) {
+    public init(selectedAction: @escaping ((IndexPath) -> Void)) {
         self.selectedAction = selectedAction
     }
     

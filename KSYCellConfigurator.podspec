@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "KSYCellConfigurator"
-  s.version      = "1.0"
+  s.version      = "1.2"
   s.summary      = "UITableViewCell Configurator"
   s.description  = "🚀 The quickest way to rapid customization of UITableView with some cells."
   s.homepage     = "https://github.com/huangdaxiaEX/TableViewCellConfigurator"
