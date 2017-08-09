@@ -8,6 +8,6 @@
 
 import UIKit
 
-protocol KSYCellSelectable {
+public protocol KSYCellSelectable {
     func didSelected(at indexPath: IndexPath)
 }

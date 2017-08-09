@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol KSYCellViewModel {
+public protocol KSYCellViewModel {
     associatedtype ViewModel
     var viewModel: ViewModel? { get }
     

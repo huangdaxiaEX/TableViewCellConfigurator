@@ -8,14 +8,14 @@
 
 import UIKit
 
-struct KSYCellSelectedAction: KSYCellSelectable {
+public struct KSYCellSelectedAction: KSYCellSelectable {
     fileprivate var selectedAction: ((IndexPath) -> Void)
     
     init(selectedAction: @escaping ((IndexPath) -> Void)) {
         self.selectedAction = selectedAction
     }
     
-    func didSelected(at indexPath: IndexPath) {
+    public func didSelected(at indexPath: IndexPath) {
         selectedAction(indexPath)
     }
 }

@@ -8,17 +8,17 @@
 
 import UIKit
 
-struct KSYCellConfigurator<Cell: UITableViewCell>: KSYCellConfigurable where Cell: KSYCellViewModel {
-
-    let reuseIdentifier: String = NSStringFromClass(Cell.self)
+public struct KSYCellConfigurator<Cell: UITableViewCell>: KSYCellConfigurable where Cell: KSYCellViewModel {
     
-    let cellClass: AnyClass = Cell.self
+    public let reuseIdentifier: String = NSStringFromClass(Cell.self)
     
-    var selection: KSYCellSelectable?
+    public let cellClass: AnyClass = Cell.self
     
-    var height: CGFloat
+    public var selection: KSYCellSelectable?
     
-    func config(_ cell: UITableViewCell) {
+    public var height: CGFloat
+    
+    public func config(_ cell: UITableViewCell) {
         guard let `cell` = cell as? Cell else {
             fatalError("cell is not KSYCellViewModel?! ")
         }
@@ -26,8 +26,8 @@ struct KSYCellConfigurator<Cell: UITableViewCell>: KSYCellConfigurable where Cel
         cell.config(viewModel)
     }
     
-    let viewModel: Cell.ViewModel
-    init(viewModel: Cell.ViewModel, height: CGFloat = 44, selection: KSYCellSelectable? = nil) {
+    public let viewModel: Cell.ViewModel
+    public init(viewModel: Cell.ViewModel, height: CGFloat = 44, selection: KSYCellSelectable? = nil) {
         self.viewModel = viewModel
         self.height = height
         self.selection = selection

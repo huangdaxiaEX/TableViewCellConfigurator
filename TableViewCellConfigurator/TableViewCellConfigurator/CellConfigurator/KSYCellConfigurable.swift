@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol KSYCellConfigurable {
+public protocol KSYCellConfigurable {
     var reuseIdentifier: String { get }
     var cellClass: AnyClass { get }
     var selection: KSYCellSelectable? { get }
