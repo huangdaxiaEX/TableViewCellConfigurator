@@ -16,7 +16,7 @@
 You can use `CocoaPods` to install `KSYCellConfigurator`
 
 ```
-     pod 'KSYCellConfigurator', "~> 1.2"
+pod 'KSYCellConfigurator', "~> 1.2"
 ```
 
 ## How to use 
