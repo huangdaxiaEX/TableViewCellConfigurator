@@ -21,8 +21,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        automaticallyAdjustsScrollViewInsets = true
         viewModel = ViewModel()
         viewModel?.tableView = tableView
         tableView.frame = view.bounds.insetBy(dx: 0, dy: 64)

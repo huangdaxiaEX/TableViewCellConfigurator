@@ -9,9 +9,13 @@
 import UIKit
 
 public protocol KSYCellConfigurable {
+    
     var reuseIdentifier: String { get }
+    
     var cellClass: AnyClass { get }
+    
     var selection: KSYCellSelectable? { get }
+    
     var height: CGFloat { get }
     
     func config(_ cell: UITableViewCell)

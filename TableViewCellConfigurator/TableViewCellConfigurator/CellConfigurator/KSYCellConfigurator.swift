@@ -27,6 +27,7 @@ public struct KSYCellConfigurator<Cell: UITableViewCell>: KSYCellConfigurable wh
     }
     
     public let viewModel: Cell.ViewModel
+    
     public init(viewModel: Cell.ViewModel, height: CGFloat = 44, selection: KSYCellSelectable? = nil) {
         self.viewModel = viewModel
         self.height = height

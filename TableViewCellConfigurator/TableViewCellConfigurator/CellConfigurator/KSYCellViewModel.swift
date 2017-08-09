@@ -9,7 +9,9 @@
 import UIKit
 
 public protocol KSYCellViewModel {
+    
     associatedtype ViewModel
+    
     var viewModel: ViewModel? { get }
     
     func config(_ viewModel: ViewModel)

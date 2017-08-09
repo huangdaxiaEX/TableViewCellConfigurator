@@ -9,6 +9,7 @@
 import UIKit
 
 public struct KSYCellSelectedAction: KSYCellSelectable {
+    
     fileprivate var selectedAction: ((IndexPath) -> Void)
     
     init(selectedAction: @escaping ((IndexPath) -> Void)) {

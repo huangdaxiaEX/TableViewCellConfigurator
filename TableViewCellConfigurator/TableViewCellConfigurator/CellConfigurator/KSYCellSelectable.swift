@@ -9,5 +9,6 @@
 import UIKit
 
 public protocol KSYCellSelectable {
+    
     func didSelected(at indexPath: IndexPath)
 }
