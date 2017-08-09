@@ -10,7 +10,7 @@
 ## Requirements
 
 - iOS 8.0+ 
-- Swift3
+- Swift3.0+
 
 ## Install
 You can use `CocoaPods` to install `KSYCellConfigurator`
