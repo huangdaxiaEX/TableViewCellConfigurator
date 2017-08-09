@@ -1,15 +1,28 @@
 # TableViewCellConfigurator
 🚀  The quickest way to rapid customization of UITableView with some cells.
 
-### Advantages
-  * Don't have to focus on tableView protocol
-  
-  
-  * Make logic clear
-  
-  * Edit easy
-  
-### How to use 
+## Advantages
+
+- [x] Don't have to focus on tableView protocol.
+- [x] Make logic clear.
+- [x] Edit easy
+ 
+## Requirements
+
+- iOS 8.0+ 
+- Swift3
+
+## Install
+You can use `CocoaPods` to install `KSYCellConfigurator`
+
+```
+     pod 'KSYCellConfigurator', "~> 1.2"
+```
+
+## How to use 
+* Import file
+
+ `import KSYCellConfigurator`
 
 * Create some cells
 ``` Swift
@@ -42,7 +55,7 @@
 ```
 
 
-* Implement tableView `DataSource` and `Delegate`
+* Implement tableView `DataSource` and `Delegate`, You can create a common file to Implement it because write once can run anywhere.
 
 ``` Swift
     func numberOfSections(in tableView: UITableView) -> Int {
