@@ -22,7 +22,7 @@ You can use `CocoaPods` to install `KSYCellConfigurator`
 ## How to use 
 * Import file
 
- `import KSYCellConfigurator`
+     `import KSYCellConfigurator`
 
 * Create some cells
 ``` Swift
